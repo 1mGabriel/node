@@ -1,0 +1,5 @@
+Módulos são script reaproveitaveis, que utilizamos bastante promgramando em NODE;
+Elses são dividos em 3 categorias;
+INTERNOS: moduulos que nos desenvolvemnos;
+CORE MODULES: Modulos que vem com node.js;
+EXTERNOS: modulos que instalamos via npm;

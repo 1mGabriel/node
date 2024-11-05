@@ -1,0 +1,4 @@
+O Node permite o envio de argumentos via linha de comando;
+Passamos ele apos a instrução de execução do arquvio;
+Os argumentnos fica em um array chamado: process.argv;
+Onde podemos fazer um loop e resgar valores enviados;
