@@ -1,0 +1,11 @@
+<h1>Estou sendo renderizado em outro arquivo pelo body</h1>
+{{!-- Interpolação com os dados do get --}}
+<p>O nome do usuaio é {{user.name}} {{user.surname}}</p> 
+
+
+{{!-- verificação da "autenticação do usuario" --}}
+{{#if auth}}
+<h3>O usário esta logado <a href="/dashboard">Acessar</a></h3>
+{{else}}
+<h3>Usuario Não esta logado</h3>
+{{/if}}

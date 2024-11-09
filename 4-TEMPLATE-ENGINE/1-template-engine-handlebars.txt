@@ -1,0 +1,17 @@
+
+TEMPLATE ENGINE
+
+Uma forma de deixar o HTML dinamico, inserindo variaveis do backend no frontend;
+Podemos ambém criar layoyts, que são reaproveitados;
+É essencial para projetos que usam banco de dados, que não são estaticvos;
+temos diversos disponiveis; EJS, Pug e Handlebars, por exemplo;
+Todos atigem o mesmo objetivo, porém há algumas diferenças de setup e funcionalidades
+
+HANDLEBARS
+
+Handlebars é uma das templates engines mais utilizadas;
+Colocamos os dados dinamicos no HTML entre {{}} para serem impresos;
+Podemos criar consdicionais e tambem loops no template;
+Cinhecido pela sua sintaxe limpa no front, nos força a não executar logica no HTMLO nome do pacote é express-handlebars
+
+app.engine('handlebars', exphbs.engine())
