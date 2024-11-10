@@ -1,12 +1,11 @@
 const express = require("express")
 const exphbs = require("express-handlebars")
-const mysql = require("mysql")
+const mysql = require("mysql") //Importação do modulo do MYSQL
 
 const app = express()
 
-// Setup basico para o uso do handlebars
-app.engine('handlebars', exphbs.engine()) //Chamada do modulo handlebars
-app.set("view engine", "handlebars") //Definindo a view
+app.engine('handlebars', exphbs.engine()) 
+app.set("view engine", "handlebars") 
 
 app.use(express.static("public"))
 
